@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box</title>
+    <style>
+            .box { 
+             border: 2px solid rgb(184, 44, 44); 
+             min-height: fit-content; 
+             display: flex;
+            }    
+            .box div { 
+                margin: 5px; 
+                text-align: center; 
+                background-color: #cf6f21;
+            } 
+            .box div:nth-child(even) { 
+                height: 70px; 
+                width: 70px; 
+                line-height: 70px;
+                background-color: aquamarine;
+            }      
+            .box div:nth-child(odd) { 
+                height: 50px; 
+                width: 50px; 
+                line-height: 50px;
+            }     
+            
+    </style>
+</head>
+<body>
+    <div class="box">
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+    </div>
+    
+</body>
+</html>
