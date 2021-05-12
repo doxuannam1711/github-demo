@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+
+<body style="text-align:center">
+
+<h2>What Can JavaScript Do?</h2>
+
+<p>JavaScript can change HTML attribute values.</p>
+
+<p>In this case JavaScript changes the value of the src (source) attribute of an image.</p>
+
+<button onclick='document.getElementById("myImage").src="https://previews.123rf.com/images/murika/murika1511/murika151100069/48123160-bright-glowing-incandescent-light-bulb-on-a-white-background.jpg"'>Turn on the light</button>
+
+<img id="myImage" src="https://previews.123rf.com/images/ericmilos/ericmilos0912/ericmilos091200136/6109526-3d-render-of-light-bulb-on-white.jpg" style="width:100px">
+
+<button onclick="document.getElementById('myImage').src='https://previews.123rf.com/images/ericmilos/ericmilos0912/ericmilos091200136/6109526-3d-render-of-light-bulb-on-white.jpg'">Turn off the light</button>
+
+<br><!--Xuống dòng -->
+
+<p id="demo" style="display: none;">JavaScript can show HTML elements!</p>
+<button onclick="document.getElementById('demo').style.display='block'">Click me!</button>
+<br>
+<p id="test">JavaScript can hide HTML elements</p>
+<button type="button" onclick="document.getElementById('test').style.display='none'">Click me again!</button>
+
+
+</body>
+</html>
